@@ -24,6 +24,7 @@
         <LinearLayout
             android:id="@+id/weather_panel"
             android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:orientation="vertical"
             android:visibility="gone"
             android:layout_width="wrap_content"
@@ -215,6 +216,24 @@
                 </TableRow>
 
             </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Weather forecast for 5 days"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_forecast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
 
         </LinearLayout>
 

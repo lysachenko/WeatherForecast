@@ -1,3 +1,4 @@
 package lysachenko.com.androidweatherapp.model;
 
-public class Rain {}
+public class Snow {
+}

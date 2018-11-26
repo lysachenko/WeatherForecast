@@ -10,6 +10,7 @@ public class MyList {
     public Clouds clouds;
     public Wind wind;
     public Rain rain;
+    public Snow snow;
     public Sys sys;
     public String dt_txt;
 }
