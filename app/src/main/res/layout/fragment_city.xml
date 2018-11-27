@@ -21,6 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
         <LinearLayout
             android:id="@+id/weather_panel"
             android:layout_gravity="center_horizontal"
@@ -93,7 +97,7 @@
                 android:layout_marginTop="10dp"
                 android:stretchColumns="*"
                 android:padding="16dp"
-                android:layout_width="300dp"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content">
 
                 <TableRow
@@ -236,6 +240,7 @@
             </android.support.v7.widget.RecyclerView>
 
         </LinearLayout>
+        </ScrollView>
 
         <ProgressBar
             android:id="@+id/loading"
